@@ -10,7 +10,7 @@ Image ref
 ![ESP32 5x5 board][ESP32-5x5-board]
 
 Image inline
-![ESP32-5x5-board](https://github.com/linuxha/ESP32-5x5-TouchPad/Docs/ESP32-5x5-board-small.png "Front view of the ESP32 5x5 Touch Pad")
+![ESP32-5x5-board](Docs/ESP32-5x5-board-small.png "Front view of the ESP32 5x5 Touch Pad")
 
 Note that this board doesn't come with the FastLED ()
 
@@ -28,4 +28,4 @@ need a table here of the touch pads
 
 
 No image should follow
-[ESP32-5x5-board]: (https://github.com/linuxha/ESP32-5x5-TouchPad/Docs/ESP32-5x5-board-small.png "Front view of the ESP32 5x5 Touch Pad")
+[ESP32-5x5-board]: (Docs/ESP32-5x5-board-small.png "Front view of the ESP32 5x5 Touch Pad")
