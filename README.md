@@ -23,3 +23,8 @@ need a table here of the touch pads
 | T4 | T9 | T14 | T19 | T24 | row 4 |
 | T5 | T10 | T15 | T20 | T25 | row 5 |
 
+## Links
+
+* [Espressif ESP32 Docs](https://www.espressif.com/en/products/socs/esp32)
+* [ESP32 Hardware Design Guidelines (English)](https://www.espressif.com/sites/default/files/documentation/esp32_hardware_design_guidelines_en.pdf)
+* [Touch Sensor Design (English)](https://github.com/ESP32DE/esp-iot-solution-1/blob/master/documents/touch_pad_solution/touch_sensor_design_en.md)
