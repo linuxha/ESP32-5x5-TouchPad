@@ -6,9 +6,6 @@ And I found their code on github, which I forked here.
 
 ## Image of the front of the board
 
-Image ref
-![ESP32 5x5 board][ESP32-5x5-board]
-
 Image inline
 ![ESP32-5x5-board](Docs/ESP32-5x5-board-small.png "Front view of the ESP32 5x5 Touch Pad")
 
@@ -26,6 +23,3 @@ need a table here of the touch pads
 | T4 | T9 | T14 | T19 | T24 | row 4 |
 | T5 | T10 | T15 | T20 | T25 | row 5 |
 
-
-No image should follow
-[ESP32-5x5-board]: (Docs/ESP32-5x5-board-small.png "Front view of the ESP32 5x5 Touch Pad")
