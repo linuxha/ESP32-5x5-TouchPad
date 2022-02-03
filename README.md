@@ -34,6 +34,7 @@ Since the original License was GPLv3.0. Since this code is based on the code, it
 Which chips have built-in support for touch sensor technology.
 
 | Chip | Notes |
+| --- | --- |
 | ESP32 | No -S or -C |
 | ESP32-C | |
 | ESP32-S | |
