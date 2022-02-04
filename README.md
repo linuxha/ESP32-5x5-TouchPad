@@ -8,7 +8,6 @@ And I found their code on github, which I forked here. The original code is Ardu
 
 ## Image of the front of the board
 
-Image inline
 ![ESP32-5x5-board](Docs/ESP32-5x5-board-small.png "Front view of the ESP32 5x5 Touch Pad")
 
 Note that this board doesn't come with the FastLED ()
@@ -24,6 +23,33 @@ need a table here of the touch pads
 | T3 | T8 | T13 | T18 | T23 | row 3 |
 | T4 | T9 | T14 | T19 | T24 | row 4 |
 | T5 | T10 | T15 | T20 | T25 | row 5 |
+
+## Arduino Env Code
+
+The existing code
+
+| Directory | Description |
+| --- | --- |
+[ 5x5_Touchpad | Pre-esting code, no networking |
+| Docs | |
+| Draw_characters | Pre-esting code, no networking |
+| MQTT_5x5_Touchpad | My code with WiFi and MQTT support |
+| Pattern_recognition | Pre-esting code, no networking |
+| Touch_oled | Pre-esting code, no networking |
+
+* MQTT_5x5_Touchpad
+  - Download and install the Arduino IDE. I like the new 2.0 IDE but the latest IDE should work fine.
+    - https://www.arduino.cc/en/software
+  - Install the pubsubclient library
+    - https://www.arduino.cc/reference/en/libraries/pubsubclient/
+  - Install the ESP32 compiler (follow link)
+    - https://docs.espressif.com/projects/arduino-esp32/en/latest/installing.html
+  - Edit the my-details.h file
+    - comment out the #error ... line
+    - Add your WiFi SSID
+    - Add your WiFi password
+    - Add your MQTT IP address
+  - Compile with the Arduino IDE
 
 ## License
 
