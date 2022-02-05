@@ -24,6 +24,20 @@ need a table here of the touch pads
 | T4 | T9 | T14 | T19 | T24 | row 4 |
 | T5 | T10 | T15 | T20 | T25 | row 5 |
 
+
+| Touch sensor channel | Pin    | GPIO |
+| -------------------- | ------ | ---- |
+| T0                   | GPIO4  |    4 |
+| T1                   | GPIO0  |    0 |
+| T2                   | GPIO2  |    2 |
+| T3                   | MTDO   |   15 |
+| T4                   | MTCK   |   13 |
+| T5                   | MTDI   |   12 |
+| T6                   | MTMS   |   14 |
+| T7                   | GPIO27 |   27 |
+| T8                   | 32K_XN |   33 |
+| T9                   | 32K_XP |   32 |
+
 ## Arduino Env Code
 
 The existing code
